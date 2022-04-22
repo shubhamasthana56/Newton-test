@@ -1,8 +1,23 @@
+<!DOCTYPE html>
 <html>
     <head>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
     </head>
     <body>
-        Testing purpose 
+        <div class="formheader">LOGIN FORM</div>
+        <form action="src/home.html" method="post">
+            <div class="formlayout">
+                <div>
+                    <label for="username">USERNAME</label>
+                    <input type="text" id="username" placeholder="Add UserName" required/>
+                </div>
+                <div>
+                    <label for="password" required>PASSWORD</label>
+                    <input type="password" id="password" placeholder="Add Password"/>  
+                </div>
+                <input type="submit"/>
+            </div>
+        </form>
     </body>
 </html>
